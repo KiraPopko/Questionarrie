@@ -60,7 +60,7 @@ console.log("Resultat: ")
 console.log(`Namn: ${name} `);
 const a = new Date();
 console.log(`Data och tid: ${a} `);
-console.log(`Djur som passar dig: ${sortera[0].djur}`)
+console.log(`Djur som passar dig bäst: ${sortera[0].djur}`)
 
 
 fs.readFile("blanketSvar.json", (err, data) => {
